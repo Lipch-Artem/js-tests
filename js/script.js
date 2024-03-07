@@ -4,9 +4,15 @@ const c = canvas.getContext('2d');
 canvas.width = 1024
 canvas.height = 576
 
+const gravity = 0.5
+
 class Player {
     constructor(position) {
         this.position = position 
+        this.velocity = {
+            x: 0,
+            y: 1
+        }
         // {
         //     x: 0,
         //     y: 0,
@@ -14,12 +20,14 @@ class Player {
     }
     draw() {
  c.fillStyle = 'red';
- c.fillRect(this.position.x, this.position.y, 100, 100);
+        c.fillRect(this.position.x, this.position.y, 100, 100);
     }
 
     update() {
         this.draw()
-        this.position.y++
+        this.position.y += this.velocity.y
+        
+        this.velocity.y += gravity
     }
 }
 
