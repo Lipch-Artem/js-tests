@@ -64,3 +64,7 @@ c.fillStyle = 'white';
 }
 
 animate()
+
+window.addEventListener('keydown', (event) => {
+   console.log(event) 
+});
