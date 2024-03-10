@@ -66,5 +66,9 @@ c.fillStyle = 'white';
 animate()
 
 window.addEventListener('keydown', (event) => {
-   console.log(event) 
+    switch (event.key) {
+        case 'd':
+            console.log('I`m moving right');    
+    }
+//    console.log(event) 
 });
