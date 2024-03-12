@@ -68,7 +68,8 @@ animate()
 window.addEventListener('keydown', (event) => {
     switch (event.key) {
         case 'd':
-            console.log('I`m moving right')  
+            console.log('I`m moving right')
+            player.velocity.x = 1
             break
     }
 //    console.log(event) 
