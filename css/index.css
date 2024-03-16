@@ -140,6 +140,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
     
 
@@ -182,14 +183,14 @@ img {
     margin-right: 76px;
         margin-top: 20px;
     
-    /* background-image: url('../images/img-logo.png'); */
+   
 
     background-size: contain;
-        /* Розмір зображення буде збережено, але займатиме весь розмір елементу */
+       
         background-repeat: no-repeat;
-        /* Запобігти повторенню зображення */
+       
         background-position: center;
-        /* Розміщення зображення по центру */
+       
 
 
 
@@ -336,14 +337,7 @@ img {
 
 .hero-title {
 
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    width: 180px;
-    margin: 0 auto 48px auto;
+    font-family: 'Inter Tight', sans-serif;
 
 
     /* text-transform: uppercase; 
@@ -831,14 +825,17 @@ display: flex;*/
     }
 
     .hero-title {
-        width: 496px;
-        text-align: center;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: var(--WHITE, #FFF);
+        
+                
+                    font-family: 'Inter Tight', sans-serif;
+                    font-size: 90px;
+                    font-weight: 500;
+                    line-height: 90px;
+                    letter-spacing: -0.03em;
+                    text-align: left;
+                    color: #FAFAFA;
+
+             
     }
 
 
